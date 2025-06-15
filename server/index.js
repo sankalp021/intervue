@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
     ? [
-        'https://your-app-name.vercel.app', // Replace with your Vercel URL
+        'hhttps://intervue-indol.vercel.app/', // Replace with your Vercel URL
         /\.vercel\.app$/ // Allow all Vercel preview deployments
       ]
     : ["http://localhost:5173", "http://localhost:5174"],
