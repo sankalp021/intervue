@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Live Polling System",
+			"type": "shell",
+			"command": "concurrently",
+			"args": [
+				"\"npm run dev\"",
+				"\"cd server; npm start\""
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
